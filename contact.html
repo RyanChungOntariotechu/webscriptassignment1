@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyles.css">
+    <title> Ryan Chung - Contact Me</title>
+</head>
+<body style = "background-color: rgba(53, 51, 146, 0.182)">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- border to the "contact" section -->
+    <section class="contact-section">
+        <h1>Contact Me</h1>
+        <p>If you have any questions or would like to get in touch, please use the contact form below:</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="2" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: ryan.chung2@ontariotechu.net</p>
+        <p>&copy; 2023 Ryan Chung</p>
+    </footer>
+</body>
+</html>
